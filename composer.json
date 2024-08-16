@@ -1,0 +1,22 @@
+{
+    "name": "santiago/viacepcloneteste",
+    "description": "Busca de cep online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santiago Silvestre",
+            "email": "silvestre.santiago732@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Santiago\\ViaCepCloneTeste\\": "src/"
+        }
+    }
+}
